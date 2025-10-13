@@ -15,7 +15,7 @@ int main() {
         perror("Ошибка при открытии файла");
         return 1;
     }
-
+    
     while (fscanf(file, "%d", &number) == 1) {
         if (number > 0 && number % 2 == 0) {
             count++;
