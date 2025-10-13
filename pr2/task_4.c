@@ -65,7 +65,7 @@ int main() {
             break;
         }
     }
-    
+
     fclose(fp1);
     fclose(fp2);
 
