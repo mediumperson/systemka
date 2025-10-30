@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 4 в списке => номер 4
-
+ 
 typedef struct Node {
     int data;
     struct Node* next;
