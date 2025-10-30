@@ -13,7 +13,7 @@ void task21() {
     scanf("%d", &num);
     printf("Факториал числа %d: %d\n", num, factorial(num));
 }
-
+ 
 int isPrime(int n) {
     if (n <= 1) {
         return 0;
