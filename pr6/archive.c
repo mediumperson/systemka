@@ -9,7 +9,7 @@
 #define SOURCE_LOG_FILE "system.log"
 #define ARCHIVE_DIR "log_archive"
 #define INTERVAL_SECONDS 5
-
+ 
 int create_zip_archive(const char *source_file, const char *archive_path, const char *archive_name) {
     char command[512];
     
